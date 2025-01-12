@@ -107,5 +107,5 @@ app.patch("/user/:id", (req, res) => {
 });
 
 app.listen(port, (req, res) => {
-  console.log(`app is listning on port : ${port}`);
+  console.log(`app is listning on to the port : ${port}`);
 });
