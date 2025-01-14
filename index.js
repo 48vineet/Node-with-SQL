@@ -2,7 +2,7 @@ const { faker } = require("@faker-js/faker");
 const mysql = require("mysql2");
 const path = require("path");
 const methodOverride = require("method-override");
-const express = require("express");
+const express = require("express");  
 const app = express();
 const port = 3000;
 
