@@ -31,7 +31,7 @@ let getRandomUser = () => {
   ]; 
 };
 
-//home route
+//its for my home route
 
 app.get("/", (req, res) => {
   let q = " SELECT count(*) FROM user";
