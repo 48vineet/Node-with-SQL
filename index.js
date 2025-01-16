@@ -47,7 +47,7 @@ app.get("/", (req, res) => {
   }
 });
 
-//show users route
+// for show users route
 app.get("/user", (req, res) => {
   let q = "SELECT * FROM user";
   try {
@@ -61,7 +61,7 @@ app.get("/user", (req, res) => {
   }
 });
 
-//Edit Route
+// for Edit Route
 app.get("/user/:id/edit", (req, res) => {
   let { id } = req.params;
   console.log(id);
@@ -80,7 +80,7 @@ app.get("/user/:id/edit", (req, res) => {
   }
 });
 
-//Update (DB ) Route
+// For Update (DB ) Route
 app.patch("/user/:id", (req, res) => {
   let { id } = req.params;
   let { password: formPass, username: newUsername } = req.body;
