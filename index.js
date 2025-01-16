@@ -17,7 +17,7 @@ app.get("/vineet", (req, res) => {
 
 const connection = mysql.createConnection({
   host: "localhost",
-  user: "root",
+  user: "root", 
   database: "delta_app",
   password: "Vineet@123",
 });
