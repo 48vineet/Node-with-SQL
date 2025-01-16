@@ -28,7 +28,7 @@ let getRandomUser = () => {
     faker.internet.username(),
     faker.internet.email(),
     faker.internet.password(),
-  ];
+  ]; 
 };
 
 //home route
