@@ -15,7 +15,7 @@ app.get("/vineet", (req, res) => {
   res.render("index"); 
 }); 
 
-const connection = mysql.createConnection({ 
+const connection = mysql.createConnection({  
   host: "localhost",
   user: "root", 
   database: "delta_app",
