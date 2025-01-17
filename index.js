@@ -8,7 +8,7 @@ const port = 3000;
 
 app.use(methodOverride("_method"));
 app.use(express.urlencoded({ extended: true }));
-app.set("view engine", "ejs");
+app.set("view engine", "ejs"); 
 app.set("views", path.join(__dirname, "/views")); 
 
 app.get("/vineet", (req, res) => { 
